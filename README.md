@@ -1,21 +1,21 @@
 <!-- markdownlint-disable MD030 -->
 
-# Flowise Embed React
+# Criai Chat Embed React
 
-React library to display flowise chatbot on your website
+React library to display criai chatbot on your website
 
-![Flowise](https://github.com/FlowiseAI/FlowiseChatEmbed/blob/main/images/ChatEmbed.gif?raw=true)
+![Criai](https://github.com/startupstudiobr/criai-chat-embed-react/blob/main/images/ChatEmbed.gif?raw=true)
 
 ## Install
 
 ```bash
-npm install flowise-embed flowise-embed-react
+npm install criai-chat-embed criai-chat-embed-react
 ```
 
 or
 
 ```bash
-yarn add flowise-embed flowise-embed-react
+yarn add criai-chat-embed criai-chat-embed-react
 ```
 
 ## Import
@@ -23,7 +23,7 @@ yarn add flowise-embed flowise-embed-react
 Full Page Chat
 
 ```tsx
-import { FullPageChat } from "flowise-embed-react";
+import { FullPageChat } from "criai-chat-embed-react";
 
 const App = () => {
   return (
@@ -38,7 +38,7 @@ const App = () => {
 Popup Chat
 
 ```tsx
-import { BubbleChat } from "flowise-embed-react";
+import { BubbleChat } from "criai-chat-embed-react";
 
 const App = () => {
   return (

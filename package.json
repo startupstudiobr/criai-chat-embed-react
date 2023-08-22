@@ -1,6 +1,6 @@
 {
   "name": "criai-chat-embed-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React library to display criai chatbot on your website",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,5 +36,14 @@
   "peerDependencies": {
     "criai-chat-embed": "*",
     "react": "18.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startupstudiobr/criai-chat-embed-react.git"
+  },
+  "author": "startupstudiobr",
+  "bugs": {
+    "url": "https://github.com/startupstudiobr/criai-chat-embed-react/issues"
+  },
+  "homepage": "https://github.com/startupstudiobr/criai-chat-embed-react#readme"
 }
