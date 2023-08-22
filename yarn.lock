@@ -1837,6 +1837,18 @@ core-js-compat@^3.30.1, core-js-compat@^3.30.2:
   dependencies:
     browserslist "^4.21.5"
 
+criai-chat-embed@*:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/criai-chat-embed/-/criai-chat-embed-1.0.12.tgz#6aa5b601ca2d24ea8932997575a968e35198d6d1"
+  integrity sha512-7yQNlKflKjy+hvfNcuVPBXnw/lmD/Y/hLRAA6PxDwgH4qgZRBWVqdNAGqOEVzk2WXXf/C/FtYCbky28ReJPAlg==
+  dependencies:
+    "@babel/core" "^7.22.1"
+    "@ts-stack/markdown" "^1.4.0"
+    lodash "^4.17.21"
+    socket.io-client "^4.6.2"
+    solid-element "1.7.0"
+    solid-js "1.7.1"
+
 cross-spawn-async@^2.1.1:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/cross-spawn-async/-/cross-spawn-async-2.2.5.tgz#845ff0c0834a3ded9d160daca6d390906bb288cc"
@@ -2279,18 +2291,6 @@ flatted@^3.1.0:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
   integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
-
-flowise-embed@*:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/flowise-embed/-/flowise-embed-1.0.9.tgz#b70043ab0a97dca62eb9ff8556c6f28c69505210"
-  integrity sha512-fJKgGj7MSL9+KCP5GEzDZwPgmdjba3guI6ze8+vMXU3A9pUYtwY2f4/10XU8ziY9YVTNjSw8vylPflhaHCd6Zg==
-  dependencies:
-    "@babel/core" "^7.22.1"
-    "@ts-stack/markdown" "^1.4.0"
-    lodash "^4.17.21"
-    socket.io-client "^4.6.2"
-    solid-element "1.7.0"
-    solid-js "1.7.1"
 
 forwarded@0.2.0:
   version "0.2.0"

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import type { BotProps } from 'flowise-embed'
+import type { BotProps } from 'criai-chat-embed'
 
 type Props = BotProps & {
   style?: React.CSSProperties
@@ -9,7 +9,7 @@ type Props = BotProps & {
 declare global {
   namespace JSX {
     interface IntrinsicElements {
-      'flowise-fullchatbot': React.DetailedHTMLProps<
+      'criai-fullchatbot': React.DetailedHTMLProps<
         React.HTMLAttributes<HTMLElement>,
         HTMLElement
       > & { class?: string }
@@ -24,7 +24,7 @@ export const FullPageChat = ({ style, className, ...assignableProps }: Props) =>
 
   useEffect(() => {
     ;(async () => {
-      await import('flowise-embed/dist/web')
+      await import('criai-chat-embed/dist/web')
     })()
   }, [])
 
@@ -33,5 +33,5 @@ export const FullPageChat = ({ style, className, ...assignableProps }: Props) =>
     Object.assign(ref.current, assignableProps)
   }, [assignableProps])
 
-  return <flowise-fullchatbot ref={ref} style={style} class={className} />
+  return <criai-fullchatbot ref={ref} style={style} class={className} />
 }
